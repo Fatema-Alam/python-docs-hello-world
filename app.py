@@ -10,8 +10,3 @@ app = Flask(__name__)
 def hello():
     return "Hello, Booo!"
 
-
-@app.post("/<solution>")
-def predict(solution):
-    return "solution"
-
