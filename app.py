@@ -11,7 +11,7 @@ def hello():
     return "Hello, Booo!"
 
 
-@app.route("/<solution>}")
+@app.route("/<solution>")
 def predict(solution):
     return "solution"
 
